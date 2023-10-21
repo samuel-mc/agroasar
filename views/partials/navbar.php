@@ -8,7 +8,7 @@
             <ul class="d-flex text--sm w-100 list--unstyled">
                 <li class="mx-2"><a class="<?php echo $title == 'Inicio' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/">Inicio</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Acerca' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/acerca">Acerca</a></li>
-                <li class="mx-2"><a class="<?php echo $title == 'Catálogo de productos' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>catalogo">Catálogo de productos</a></li>
+                <li class="mx-2"><a class="<?php echo $title == 'Catálogo de productos' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/catalogo">Catálogo de productos</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Servicios' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/servicios">Servicios</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Ganadería' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/ganaderia">Ganadería</a></li>
                 <li class="mx-2"><a class="<?php echo $title == 'Contacto' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/contacto">Contacto</a></li>
@@ -42,7 +42,7 @@
                 <ul class="d-flex flex-column text--md w-100 list--unstyled">
                     <li class="mx-2"><a class="<?php echo $title == 'Inicio' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/">Inicio</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Acerca' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/acerca">Acerca</a></li>
-                    <li class="mx-2"><a class="<?php echo $title == 'Catálogo de productos' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>catalogo">Catálogo de productos</a></li>
+                    <li class="mx-2"><a class="<?php echo $title == 'Catálogo de productos' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/catalogo">Catálogo de productos</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Servicios' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/servicios">Servicios</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Ganadería' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/ganaderia">Ganadería</a></li>
                     <li class="mx-2"><a class="<?php echo $title == 'Contacto' ? 'a--brown text--bold' : 'a--grey' ?>" href="<?php echo __ROOT__; ?>/contacto">Contacto</a></li>
