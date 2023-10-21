@@ -64,6 +64,16 @@
     color: var(--dark-green);
 }
 
+.btn--white {
+    background-color: #fff;
+    color: var(--dark-green);
+}
+
+.btn--white:hover {
+    background-color: var(--light-green);
+    color: var(--dark-green);
+}
+
 .btn--rounded {
     border-radius: 50px;
 }
@@ -76,6 +86,10 @@
 
 .bg--lightGreen {
     background-color: var(--light-green);
+}
+
+.bg--darkGreen {
+    background-color: var(--dark-green);
 }
 
 a {
@@ -93,6 +107,18 @@ a {
 
 .a--grey:hover {
     color: var(--brown);
+}
+
+.text--brown {
+    color: var(--brown);
+}
+
+.text--grey {
+    color: var(--grey);
+}
+
+.text--darkGreen {
+    color: var(--dark-green);
 }
 
 .grid--2cols {

@@ -38,6 +38,12 @@ html {
     height: 74px;
 }
 
+.marcas img{
+    width: 20%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
 @keyframes appear {
     0% {
         opacity: 0;
