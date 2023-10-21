@@ -25,6 +25,10 @@ Flight::route('/servicios', function () {
     Flight::render('servicios.php', array('title' => 'Servicios'));
 });
 
+Flight::route('/ganaderia', function () {
+    Flight::render('ganaderia.php', array('title' => 'Ganaderia'));
+});
+
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
