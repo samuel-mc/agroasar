@@ -166,5 +166,45 @@
         </main>
     </section>
 
+    <section class="mw--1440 px-2 py-2 py-lg-5">
+        <div class="sobreponerForm position-relative">
+            <img class="img-fluid" src="<?php echo __ROOT__; ?>/public/img/home/formBg.png">
+            <div class="position-absolute top-0 start-50 m-3 py-0 py-lg-5">
+                <form class="bg--lightGrey p-3 p-md-5 rounded--24">
+                    <header class="px-2 py-4">
+                        <h2 class="text--lg text--darkGreen text--bold">Ponte en contacto</h2>
+                    </header>
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex flex-column mb-3 input--lightGrey">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="col-12 col-md-6 d-flex flex-column mb-3 input--lightGrey">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" placeholder="ejemplo@email.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column mb-3 input--lightGrey">
+                            <label for="telefono">Teléfono</label>
+                            <input type="text" id="telefono" name="telefono" placeholder="(123) 456 - 789">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex flex-column mb-3 input--lightGrey">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10"  placeholder="Escribe aquí tu mensaje..." style="resize: none;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-end">
+                            <button class="btn btn--darkGreen">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
 </main>
 <?php include 'partials/footer.php'; ?>

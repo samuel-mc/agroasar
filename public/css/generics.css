@@ -1,7 +1,7 @@
 :root {
     --dark-green: #096134;
-    --light-green: #C8E6C9;
-    --brown: #582519;
+    --light-green: #E7EDDF;
+    --brown: #511B0E;
     --grey: #4B5563;
     --light-grey: #F3F4F6;
 
@@ -65,6 +65,17 @@
     color: var(--dark-green);
 }
 
+.btn--brown {
+    background-color: var(--brown);
+    color: #fff;
+}
+
+.btn--brown:hover {
+    background-color: var(--light-green);
+    color: var(--dark-green);
+}
+
+
 .btn--white {
     background-color: #fff;
     color: var(--dark-green);
@@ -78,7 +89,9 @@
 .btn--rounded {
     border-radius: 50px;
 }
-
+.rounded--24{
+    border-radius: 50px;
+}
 .btn--square {
     aspect-ratio: 1/1;
     height: fit-content;
