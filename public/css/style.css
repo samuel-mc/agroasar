@@ -102,8 +102,7 @@ html {
 
 
 @media (max-width: 1400px) {
-    .sobreponerForm{
-    }
+
     .sobreponerForm img{
         display: none;
     }
