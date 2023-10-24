@@ -39,8 +39,6 @@
             </div>
         </div>
     </section>
-    <?php include 'components/marcas.php'; ?>
-    <?php include 'components/bannerContacto.php'; ?>
 
 </main>
 <?php include 'partials/footer.php'; ?>

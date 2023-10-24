@@ -53,8 +53,118 @@
             </div>
         </main>
     </section>
+
     <?php include 'components/marcas.php'; ?>
+
+    <section class="mw--1440 px-2 py-5">
+        <header class="w--50 text-center">
+            <h2 class="text--lg text--darkGreen fw-bold mb-3">Servicios</h2>
+            <p class="text--sm text--grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus ipsum viverra etiam.</p>
+        </header>
+        <main class="grid--3cols gap-4">
+            <div class="p-4">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/servicio1.png" style="width: 48px; height: 48px;">
+                <h3 class="text--md my-3">Dron fumigador</h3>
+                <p class="text--sm text--grey">
+                    Lo más nuevo en tecnología agricola a su disposición, actualiza tu metodo de aplicación, ahorra tiempo y dinero.
+                </p>
+            </div>
+            <div class="p-4">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/servicio2.png" style="width: 48px; height: 48px;">
+                <h3 class="text--md my-3">Asesoría técnica</h3>
+                <p class="text--sm text--grey">
+                    Nuestros ingenieros están comprometidos con el rendimiento de tus cosechas, si hay algún problema en tus cultivos no dudes en contactarnos
+                </p>
+            </div>
+            <div class="p-4">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/servicio3.png" style="width: 48px; height: 48px;">
+                <h3 class="text--md my-3">Empacadora</h3>
+                <p class="text--sm text--grey">
+                    Contáctanos para empacar tus pastos.
+                </p>
+            </div>
+            <div class="p-4">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/servicio4.png" style="width: 48px; height: 48px;">
+                <h3 class="text--md my-3">Preparación de terreno</h3>
+                <p class="text--sm text--grey">
+                    Contamos con operadores experimentados para realizar los trabajos de preparación de suelo.
+                </p>
+            </div>
+            <div class="p-4">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/servicio5.png" style="width: 48px; height: 48px;">
+                <h3 class="text--md my-3">Transporte de mercancía</h3>
+                <p class="text--sm text--grey">
+                    Tus productos a donde los necesites, también puedes contar con nosotros para trasladar tu mercancía.
+                </p>
+            </div>
+            <div class="p-4">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/servicio6.png" style="width: 48px; height: 48px;">
+                <h3 class="text--md my-3">Sembradora de presición</h3>
+                <p class="text--sm text--grey">
+                    Sembradoras de precisión disponibles para ti.
+                </p>
+            </div>
+        </main>
+    </section>
+
+    <section class="mw--1440 px-2 py-5">
+        <header class="w--50 text-center">
+            <h2 class="text--lg text--darkGreen fw-bold mb-3">Ganadería</h2>
+            <p class="text--sm text--grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus ipsum viverra etiam.</p>
+        </header>
+        <main>
+            <img src="<?php echo __ROOT__; ?>/public/img/home/ganaderia.png" class="w-100">
+        </main>
+    </section>
+
     <?php include 'components/bannerContacto.php'; ?>
+
+    <section class="mw--1440 px-2 py-5">
+        <header class="w--50 text-center">
+            <h2 class="text--lg text--darkGreen fw-bold mb-3">¿Tienes alguna duda?</h2>
+            <p class="text--sm text--grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus ipsum viverra etiam.</p>
+        </header>
+        <main class="w--50">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim lorem hac a ultricies. Id ornare turpis vulputate enim sed magna sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim lorem hac a ultricies. Id ornare turpis vulputate enim sed magna sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim lorem hac a ultricies. Id ornare turpis vulputate enim sed magna sit. A id cursus dolor urna. Aliquam diam integer vitae eget.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
 
 </main>
 <?php include 'partials/footer.php'; ?>

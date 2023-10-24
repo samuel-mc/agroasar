@@ -3,6 +3,7 @@
     --light-green: #C8E6C9;
     --brown: #582519;
     --grey: #4B5563;
+    --light-grey: #F3F4F6;
 
     --text-xs: 12px;
     --text-sm: 16px;
@@ -90,6 +91,10 @@
 
 .bg--darkGreen {
     background-color: var(--dark-green);
+}
+
+.bg--lightGrey {
+    background-color: var(--light-grey);
 }
 
 a {

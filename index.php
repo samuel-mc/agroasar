@@ -5,8 +5,8 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-#define('__ROOT__', "http://localhost/agroasar");
-define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/agroasar");
+define('__ROOT__', "http://localhost/agroasar");
+// define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/agroasar");
 
 
 Flight::route('/', function () {
@@ -18,7 +18,7 @@ Flight::route('/acerca', function () {
 });
 
 Flight::route('/catalogo', function () {
-    Flight::render('catalogo.php', array('title' => 'Catalogo'));
+    Flight::render('catalogo.php', array('title' => 'Catálogo de productos'));
 });
 
 Flight::route('/servicios', function () {
@@ -27,6 +27,10 @@ Flight::route('/servicios', function () {
 
 Flight::route('/ganaderia', function () {
     Flight::render('ganaderia.php', array('title' => 'Ganaderia'));
+});
+
+Flight::route('/contacto', function () {
+    Flight::render('contacto.php', array('title' => 'Contacto'));
 });
 
 #404
