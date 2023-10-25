@@ -3,6 +3,6 @@
         <header class="w--50 text-center">
             <h2 class="text--lg pb-4">No lo pienses más ponte en contacto con nosotros</h2>
         </header>
-        <button class="btn btn--white fw-bold">Empezar</button>
+        <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--white fw-bold">Empezar</a>
     </div>
 </section>

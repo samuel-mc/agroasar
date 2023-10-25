@@ -34,8 +34,8 @@
                         <textarea name="mensaje" id="mensaje" cols="30" rows="10" style="resize: none;"></textarea>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 d-flex justify-content-end">
+                <div class="row w-100">
+                    <div class="col-12 d-flex justify-content-start">
                         <button class="btn btn--darkGreen">Enviar</button>
                     </div>
                 </div>

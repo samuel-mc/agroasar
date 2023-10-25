@@ -1,7 +1,7 @@
 <?php include 'partials/header.php'; ?>
 <?php include 'partials/navbar.php'; ?>
 
-<main>
+<main class="minh--100vh">
     <section class="mw--1440 text-center p-2">
         <header class="w--50">
             <h2 class="text--lg text--darkGreen fw-bold mb-3">Gracias por enviar tu solicitud</h2>

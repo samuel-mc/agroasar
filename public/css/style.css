@@ -99,9 +99,11 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
+.minh--100vh {
+    min-height: calc(100vh - 220px);
+}
 
-
-@media (max-width: 1400px) {
+@media (max-width: 1024px) {
 
     .sobreponerForm img{
         display: none;

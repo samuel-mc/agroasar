@@ -6,7 +6,7 @@
             <div class="text-white p-2">
                 <h2 class="text--lg">¡Potencia tu cosecha con nuestros productos agrícolas de primera calidad!</h2>
                 <p class="text--md my-5">Descubre la excelencia en cada cultivo con nuestra amplia gama de fertilizantes, semillas certificadas y soluciones innovadoras para el cuidado de tus cultivos.</p>
-                <button class="btn btn--white fw-bold">Contáctanos</button>
+                <a href="<?php echo __ROOT__; ?>/contacto" class="btn btn--white fw-bold">Contáctanos</a>
             </div>
             <div class="text-center">
                 <img src="<?php echo __ROOT__; ?>/public/img/heroImg.png" class="w-100 mw-400">
@@ -21,7 +21,7 @@
             <h4 class="text--sm text--brown fw-bold mb-2">Agrosar</h4>
             <h2 class="text--lg text--darkGreen fw-bold mb-3">Quienes somos</h2>
             <p class="text--md text--grey mb-5">Somos una empresa dedicada a la comercialización de productos y servicios para la agricultura, contamos con el equipo que necesitas para facilitar tus tareas en el campo.</p>
-            <button class="btn btn--darkGreen fw-bold">Ver más</button>
+            <a href="<?php echo __ROOT__; ?>/acerca" class="btn btn--darkGreen fw-bold">Ver más</a>
         </div>
     </section>
     <section class="mw--1440 px-2 py-5">
